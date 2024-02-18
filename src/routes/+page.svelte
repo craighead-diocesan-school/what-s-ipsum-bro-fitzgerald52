@@ -41,6 +41,12 @@
     mask: var(--mask);
     background: lavender;
     height: 70px;
+    transform: scale(1, 1);
+    transition: 0.5s;
+  }
+  .wave:hover {
+    transform: scale(1.1, 1.5);
+    transition: 0.5s;
   }
   .boxes {
     display: flex;
@@ -49,6 +55,10 @@
     justify-content: space-between;
     width: 400px;
   }
+  .box:hover {
+    transform: scale(1.1);
+    transition: 0.25s;
+  }
   .box {
     width: 125px;
     height: 125px;
@@ -56,6 +66,8 @@
     padding: 25px;
     background: ivory;
     box-shadow: 15px 15px lightblue;
+    transform: scale(1);
+    transition: 0.25s;
   }
   .text {
     font-family: 'Patrick Hand', cursive;
