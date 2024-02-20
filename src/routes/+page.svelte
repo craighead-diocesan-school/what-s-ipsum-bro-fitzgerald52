@@ -30,6 +30,10 @@
 <Footer />
 
 <style>
+  h2 {
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+  }
   main {
     background: lightblue;
     padding-bottom: 3rem;

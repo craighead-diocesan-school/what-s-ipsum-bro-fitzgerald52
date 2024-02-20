@@ -1,10 +1,14 @@
-<header>
+<script>
+  export let color = 'lavender'
+</script>
+
+<header style="background : {color}">
   <h1>What's Ipsum, Bro?</h1>
 </header>
 
 <style>
   header {
-    background: lavender;
+    background: rgb(220, 220, 247);
   }
 
   h1 {
