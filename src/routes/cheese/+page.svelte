@@ -15,17 +15,17 @@
   </div>
 
   <div class="boxes">
-    <a href="pirate">
-      <img class="circle" src="pirate.png" alt="Pirate" />
+    <a class="circle" href="/pirate">
+      <img src="pirate.png" alt="Pirate" />
     </a>
-    <a href="/">
-      <img class="circle" src="home.png" alt="home page " />
+    <a class="circle" href="/">
+      <img src="home.png" alt="home page " />
     </a>
-    <a href="cupcake">
-      <img class="circle" src="cupcake.png" alt="Cupcake" />
+    <a class="circle" href="cupcake">
+      <img src="cupcake.png" alt="Cupcake" />
     </a>
-    <a href="hipster">
-      <img class="circle" src="hipster.png" alt="Hipster" />
+    <a class="circle" href="hipster">
+      <img src="hipster.png" alt="Hipster" />
     </a>
   </div>
 </main>
@@ -48,7 +48,7 @@
     width: 400px;
   }
   .circle:hover {
-    transform: scale(1);
+    transform: scale(1.1);
     transition: 0.25s;
   }
   .circle {
@@ -59,6 +59,17 @@
     background: rgb(211, 211, 36);
     /* box-shadow: 15px 15px rgb(156, 152, 88); change to be inside */
     transform: scale(1);
+    transition: 0.25s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    transform: scale(0.1);
+    transition: 0.25s;
+  }
+  img:hover {
+    transform: scale(1.5);
     transition: 0.25s;
   }
   .text {
