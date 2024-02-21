@@ -15,17 +15,17 @@
   </div>
 
   <div class="boxes">
-    <a class="circle" href="/pirate">
-      <img src="pirate.png" alt="Pirate" />
+    <a class="piratehole" href="/pirate">
+      <img class="pirateicon" src="pirate.png" alt="Pirate" />
     </a>
-    <a class="circle" href="/">
-      <img src="home.png" alt="home page " />
+    <a class="homehole" href="/">
+      <img class="homeicon" src="home.png" alt="home page " />
     </a>
-    <a class="circle" href="cupcake">
-      <img src="cupcake.png" alt="Cupcake" />
+    <a class="cupcakehole" href="cupcake">
+      <img class="cupcakeicon" src="cupcake.png" alt="Cupcake" />
     </a>
-    <a class="circle" href="hipster">
-      <img src="hipster.png" alt="Hipster" />
+    <a class="hipsterhole" href="hipster">
+      <img class="hipstericon" src="hipster.png" alt="Hipster" />
     </a>
   </div>
 </main>
@@ -47,11 +47,62 @@
     justify-content: space-between;
     width: 400px;
   }
-  .circle:hover {
+  .piratehole:hover .pirateicon {
     transform: scale(1.1);
     transition: 0.25s;
   }
-  .circle {
+  .piratehole {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    padding: 25px;
+    background: rgb(211, 211, 36);
+    /* box-shadow: 15px 15px rgb(156, 152, 88); change to be inside */
+    transform: scale(1);
+    transition: 0.25s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .homehole:hover .homeicon {
+    transform: scale(1.1);
+    transition: 0.25s;
+  }
+  .homehole {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    padding: 25px;
+    background: rgb(211, 211, 36);
+    /* box-shadow: 15px 15px rgb(156, 152, 88); change to be inside */
+    transform: scale(1);
+    transition: 0.25s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cupcakehole:hover .cupcakeicon {
+    transform: scale(1.1);
+    transition: 0.25s;
+  }
+  .cupcakehole {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    padding: 25px;
+    background: rgb(211, 211, 36);
+    /* box-shadow: 15px 15px rgb(156, 152, 88); change to be inside */
+    transform: scale(1);
+    transition: 0.25s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hipsterhole:hover .hipstericon {
+    transform: scale(1.1);
+    transition: 0.25s;
+  }
+  .hipsterhole {
     width: 125px;
     height: 125px;
     border-radius: 50%;
@@ -65,7 +116,7 @@
     align-items: center;
   }
   img {
-    transform: scale(0.1);
+    transform: scale(0);
     transition: 0.25s;
   }
   img:hover {
