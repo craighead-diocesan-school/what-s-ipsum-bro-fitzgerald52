@@ -34,6 +34,36 @@
 
 <style>
   main {
+    display: grid;
+    grid:
+      ' .  t t  p   ' auto
+      ' i  t  t  c   ' auto
+      ' .  h  .  .   ' auto
+      / 1fr 6fr;
+  }
+
+  .text {
+    font-family: 'Patrick Hand', cursive;
+    width: 30%;
+    grid-area: t;
+  }
+  .piratehole {
+    grid-area: p;
+  }
+
+  .cupcakehole {
+    grid-area: c;
+  }
+
+  .hipsterhole {
+    grid-area: i;
+  }
+
+  .homehole {
+    grid-area: h;
+  }
+
+  main {
     background-color: #ffff00;
   }
   h2 {
@@ -122,9 +152,5 @@
   img:hover {
     transform: scale(1.5);
     transition: 0.25s;
-  }
-  .text {
-    font-family: 'Patrick Hand', cursive;
-    width: 30%;
   }
 </style>

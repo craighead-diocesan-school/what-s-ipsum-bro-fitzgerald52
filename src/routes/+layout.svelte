@@ -31,4 +31,14 @@
     font-weight: 300;
     margin: 0 0 1rem 0;
   }
+
+  @font-face {
+    font-family: hyper-scrypt;
+    src: url('/piratefont.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: basteleur;
+    src: url('/Basteleur-Moonlight.woff2') format('woff2');
+  }
 </style>
