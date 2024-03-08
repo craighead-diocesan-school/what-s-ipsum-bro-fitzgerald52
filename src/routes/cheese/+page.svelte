@@ -16,16 +16,16 @@
 
   <div class="boxes">
     <a class="piratehole" href="/pirate">
-      <img class="pirateicon" src="pirate.png" alt="Pirate" />
+      <img class="pirateicon" src="/pirate.png" alt="Pirate" />
     </a>
     <a class="homehole" href="/">
-      <img class="homeicon" src="home.png" alt="home page " />
+      <img class="homeicon" src="/home.png" alt="home page " />
     </a>
     <a class="cupcakehole" href="cupcake">
-      <img class="cupcakeicon" src="cupcake.png" alt="Cupcake" />
+      <img class="cupcakeicon" src="/cupcake.png" alt="Cupcake" />
     </a>
     <a class="hipsterhole" href="hipster">
-      <img class="hipstericon" src="hipster.png" alt="Hipster" />
+      <img class="hipstericon" src="/hipster.png" alt="Hipster" />
     </a>
   </div>
 </main>

@@ -5,9 +5,9 @@
 <Snav />
 <main>
   <div class="subheading">
-    <img src="skull.png" alt="skull face " />
+    <img src="/skull.png" alt="skull face " />
     <h2>Yar Pirate Ipsum</h2>
-    <img src="skull.png" alt="skull face " />
+    <img src="/skull.png" alt="skull face " />
   </div>
 
   <div class="container">
@@ -29,11 +29,11 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: url(flag.png);
+    background: url(/flag.png);
     height: 150px;
   }
   .background {
-    background: url(ship.gif);
+    background: url(/ship.gif);
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -50,7 +50,7 @@
     height: 500px;
   }
   .container {
-    background: url(sea.gif);
+    background: url(/sea.gif);
     height: 500px;
     display: flex;
     align-items: center;

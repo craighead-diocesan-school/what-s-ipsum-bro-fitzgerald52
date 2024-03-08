@@ -13,10 +13,10 @@
     <p>Put a bird on it vibecession fashion axe YOLO asymmetrical. VHS photo booth listicle fam truffaut subway tile yr cred chicharrones semiotics biodiesel green juice microdosing whatever. Truffaut praxis PBR and B tattooed street art. Prism jean shorts pickled vegan. Vegan praxis cronut kitsch pop-up. Letterpress street art mlkshk marxism.</p>
   </div>
   <a class="tree" href="/treestump">
-    <img class="trunk" src="treestump.png" alt="tree trunk" />
+    <img class="trunk" src="/treestump.png" alt="tree trunk" />
   </a>
   <a href="/plane">
-    <img class="plane" src="plane.gif" alt="white plane" />
+    <img class="plane" src="/plane.gif" alt="white plane" />
   </a>
 </main>
 
