@@ -68,4 +68,21 @@
     background-color: #880808;
     transform: scale(1.1);
   }
+
+  @media screen and (max-width: 1000px) {
+    .background {
+      flex-direction: column;
+    }
+    .container {
+      width: 110vw;
+    }
+    h2 {
+      font-family: hyper-scrypt;
+      color: #d9edff;
+      font-size: medium;
+    }
+    .subheading {
+      width: 110vw;
+    }
+  }
 </style>

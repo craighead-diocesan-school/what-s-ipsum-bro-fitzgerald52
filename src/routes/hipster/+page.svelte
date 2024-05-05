@@ -67,4 +67,14 @@
     grid-area: p;
     width: 200px;
   }
+  main {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+  @media screen and (max-width: 1000px) {
+    main {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
 </style>

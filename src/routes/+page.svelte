@@ -95,4 +95,11 @@
       width: 100%;
     }
   }
+
+  @media screen and (max-width: 1000px) {
+    main {
+      margin-left: 1px;
+      margin-right: 1px;
+    }
+  }
 </style>

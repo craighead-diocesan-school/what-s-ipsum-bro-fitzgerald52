@@ -14,31 +14,34 @@
     <p>Fromage the big cheese camembert de normandie. Cut the cheese gouda brie the big cheese when the cheese comes out everybody's happy squirty cheese cut the cheese gouda. Boursin cottage cheese cheeseburger camembert de normandie cheese slices goat port-salut danish fontina. Emmental caerphilly cream cheese mozzarella camembert de normandie cheesy feet.</p>
   </div>
 
-  <div class="boxes">
-    <a class="piratehole" href="/pirate">
-      <img class="pirateicon" src="/pirate.png" alt="Pirate" />
-    </a>
-    <a class="homehole" href="/">
-      <img class="homeicon" src="/home.png" alt="home page " />
-    </a>
-    <a class="cupcakehole" href="cupcake">
-      <img class="cupcakeicon" src="/cupcake.png" alt="Cupcake" />
-    </a>
-    <a class="hipsterhole" href="hipster">
-      <img class="hipstericon" src="/hipster.png" alt="Hipster" />
-    </a>
-  </div>
+  <!-- <div class="boxes"> -->
+  <a class="piratehole" href="/pirate">
+    <img class="pirateicon" src="/pirate.png" alt="Pirate" />
+  </a>
+  <a class="homehole" href="/">
+    <img class="homeicon" src="/home.png" alt="home page " />
+  </a>
+  <a class="cupcakehole" href="cupcake">
+    <img class="cupcakeicon" src="/cupcake.png" alt="Cupcake" />
+  </a>
+  <a class="hipsterhole" href="hipster">
+    <img class="hipstericon" src="/hipster.png" alt="Hipster" />
+  </a>
+  <!-- </div> -->
 </main>
 
 <Footer />
 
 <style>
   main {
+    margin: 5em 10em;
+    padding: 3em 3em;
     display: grid;
     grid:
-      ' .  t t  p   ' auto
-      ' i  t  t  c   ' auto
-      ' .  h  .  .   ' auto
+      ' .  z z  . ' auto
+      ' .  t t  p ' auto
+      ' i  t t  c ' auto
+      ' .  h  . . ' auto
       / 1fr 6fr;
   }
 
@@ -69,14 +72,9 @@
   h2 {
     text-align: center;
     font-family: 'Patrick Hand', cursive;
+    grid-area: z;
   }
-  .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-    justify-content: space-between;
-    width: 400px;
-  }
+
   .piratehole:hover .pirateicon {
     transform: scale(1.1);
     transition: 0.25s;
@@ -152,5 +150,16 @@
   img:hover {
     transform: scale(1.5);
     transition: 0.25s;
+  }
+
+  @media screen and (max-width: 1000px) {
+    main {
+      width: 100vw;
+      display: inline-block;
+      margin: 0px;
+    }
+    h2 {
+      width: 100vw;
+    }
   }
 </style>
